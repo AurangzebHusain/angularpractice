@@ -8,6 +8,8 @@ import {NgForm} from '@angular/forms';
 export class AppComponent {
   @ViewChild('f') signupForm:NgForm;
   title = 'angular-workshop';
+  defaultQuestion= "pet";
+  answer='';
 
 // onSubmit(form:NgForm){
 // console.log(form);
