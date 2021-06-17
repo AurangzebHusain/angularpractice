@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'angular-workshop';
   defaultQuestion= "pet";
   answer='';
+  genders=['male','female'];
 
 // onSubmit(form:NgForm){
 // console.log(form);

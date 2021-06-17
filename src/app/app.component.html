@@ -29,6 +29,12 @@
           </textarea>
           {{answer}}
         </div>
+        <div class="radio" *ngFor="let gender of this.genders">
+          <label>
+            <input type="radio" name="gender" ngModel [value]='gender'>
+            {{gender}}
+          </label>
+        </div>
         <button class="btn btn-primary mt-5" type="submit" [disabled]='!f.valid'>Submit</button>
       </form>
     </div>
